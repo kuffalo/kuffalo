@@ -2,10 +2,18 @@
 
 
 /*   ---------------BASIC SETUP----------------- */
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
-.top {
-  background-color: #ddd;
-  color: red;
-  margin: 30px 12px;
-  padding: 10px;
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: 'Lato', 'Arial', 'sans-serif';
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
 }
